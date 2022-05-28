@@ -1,16 +1,16 @@
-import githubIcon from "../images/github.svg"
+import { FaGithub } from "react-icons/fa"
 
 const Header = () => {
   return (
     <header className="header">
-      <ul>
-        <li>
-          <button>Contribute</button>
-        </li>
-        <li>
-          <button>Donate</button>
-        </li>
-      </ul>
+      <div className="logo">
+        <h2>Downing</h2>
+        <ul>
+          <li>
+            <button>Contribute</button>
+          </li>
+        </ul>
+      </div>
 
       <div>
         <a
@@ -18,8 +18,7 @@ const Header = () => {
           target="_blank"
           rel="noopenner noreferrer"
         >
-          <img src={githubIcon} alt="GitHub" className="github-icon" /> Github
-          Repo
+          <FaGithub className="github-icon" />
         </a>
       </div>
     </header>
