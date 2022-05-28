@@ -14,6 +14,9 @@ const Showcase = () => {
           >
             <h3>This is Downing</h3>
             <h1>The Minimalist CSS Framework</h1>
+            <p>
+              A simple CSS framework to reset styles to help you code faster
+            </p>
           </motion.article>
           <motion.article
             className="image"
