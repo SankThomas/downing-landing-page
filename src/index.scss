@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 $dark-navy-blue: #1d2223;
 $dark-green: #02454d;
 $light-gray: #bfc2b0;
@@ -63,13 +65,16 @@ a {
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #1d2223;
 }
 
 pre {
   font-family: "Roboto Mono", sans-serif;
   display: inline;
+  background-color: #e5e5e5;
+  padding: 0.1rem;
+  border-radius: 0.3rem;
 }
 
 p {
